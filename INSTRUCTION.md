@@ -39,7 +39,7 @@ You should see the ToDo app’s landing page or API response.
 1. Check the NodePort service:
 
 ```bash
-kubectl get svc todo-nodeport -n todoapp
+kubectl get svc todo-node-port -n todoapp
 ```
 
 2. Access the ToDo app from **inside the cluster** (e.g., using BusyBox pod):
